@@ -8,24 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		11B1B6FD1F8F159000BAAF31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B1B6FC1F8F159000BAAF31 /* AppDelegate.m */; };
-		11B1B7001F8F159000BAAF31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B1B6FF1F8F159000BAAF31 /* ViewController.m */; };
 		11B1B7031F8F159000BAAF31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B1B7011F8F159000BAAF31 /* Main.storyboard */; };
 		11B1B7051F8F159000BAAF31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11B1B7041F8F159000BAAF31 /* Assets.xcassets */; };
 		11B1B7081F8F159000BAAF31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B1B7061F8F159000BAAF31 /* LaunchScreen.storyboard */; };
 		11B1B70B1F8F159000BAAF31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B1B70A1F8F159000BAAF31 /* main.m */; };
+		11B1B71A1F8F160000BAAF31 /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B1B7131F8F160000BAAF31 /* Tool.m */; };
+		11B1B71B1F8F160000BAAF31 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B1B7161F8F160000BAAF31 /* TableViewController.m */; };
+		11B1B71C1F8F160000BAAF31 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B1B7191F8F160000BAAF31 /* TableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		11B1B6F81F8F159000BAAF31 /* MYTVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MYTVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11B1B6FB1F8F159000BAAF31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		11B1B6FC1F8F159000BAAF31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		11B1B6FE1F8F159000BAAF31 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		11B1B6FF1F8F159000BAAF31 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		11B1B7021F8F159000BAAF31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11B1B7041F8F159000BAAF31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11B1B7071F8F159000BAAF31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11B1B7091F8F159000BAAF31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11B1B70A1F8F159000BAAF31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11B1B7121F8F160000BAAF31 /* Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
+		11B1B7131F8F160000BAAF31 /* Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tool.m; sourceTree = "<group>"; };
+		11B1B7151F8F160000BAAF31 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		11B1B7161F8F160000BAAF31 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		11B1B7181F8F160000BAAF31 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		11B1B7191F8F160000BAAF31 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +64,11 @@
 		11B1B6FA1F8F159000BAAF31 /* MYTVC */ = {
 			isa = PBXGroup;
 			children = (
+				11B1B7111F8F160000BAAF31 /* Tool */,
+				11B1B7141F8F160000BAAF31 /* VC */,
+				11B1B7171F8F160000BAAF31 /* View */,
 				11B1B6FB1F8F159000BAAF31 /* AppDelegate.h */,
 				11B1B6FC1F8F159000BAAF31 /* AppDelegate.m */,
-				11B1B6FE1F8F159000BAAF31 /* ViewController.h */,
-				11B1B6FF1F8F159000BAAF31 /* ViewController.m */,
 				11B1B7011F8F159000BAAF31 /* Main.storyboard */,
 				11B1B7041F8F159000BAAF31 /* Assets.xcassets */,
 				11B1B7061F8F159000BAAF31 /* LaunchScreen.storyboard */,
@@ -69,6 +76,33 @@
 				11B1B70A1F8F159000BAAF31 /* main.m */,
 			);
 			path = MYTVC;
+			sourceTree = "<group>";
+		};
+		11B1B7111F8F160000BAAF31 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				11B1B7121F8F160000BAAF31 /* Tool.h */,
+				11B1B7131F8F160000BAAF31 /* Tool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		11B1B7141F8F160000BAAF31 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				11B1B7151F8F160000BAAF31 /* TableViewController.h */,
+				11B1B7161F8F160000BAAF31 /* TableViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		11B1B7171F8F160000BAAF31 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				11B1B7181F8F160000BAAF31 /* TableViewCell.h */,
+				11B1B7191F8F160000BAAF31 /* TableViewCell.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,9 +176,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11B1B7001F8F159000BAAF31 /* ViewController.m in Sources */,
+				11B1B71A1F8F160000BAAF31 /* Tool.m in Sources */,
 				11B1B70B1F8F159000BAAF31 /* main.m in Sources */,
 				11B1B6FD1F8F159000BAAF31 /* AppDelegate.m in Sources */,
+				11B1B71C1F8F160000BAAF31 /* TableViewCell.m in Sources */,
+				11B1B71B1F8F160000BAAF31 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,11 +315,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D5QV77LE6R;
 				INFOPLIST_FILE = MYTVC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MYTVC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -292,11 +330,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D5QV77LE6R;
 				INFOPLIST_FILE = MYTVC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MYTVC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
